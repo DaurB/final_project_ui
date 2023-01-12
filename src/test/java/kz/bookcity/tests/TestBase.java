@@ -1,4 +1,4 @@
-package com.meloman.tests;
+package kz.bookcity.tests;
 
 
 
