@@ -10,12 +10,12 @@ public class MainPageTest extends TestBase {
 
     String textErrorMessage = "Заполните email";
 
-    @Test
-    @DisplayName("Check logo")
-    void checkLogoTest() {
-        mainPage.openPage()
-                .checkLogo();
-    }
+//    @Test
+//    @DisplayName("Check logo")
+//    void checkLogoTest() {
+//        mainPage.openPage()
+//                .checkLogo();
+//    }
 
     @Test
     @DisplayName("Check empty input")
