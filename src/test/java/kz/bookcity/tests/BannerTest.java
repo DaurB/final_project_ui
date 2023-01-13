@@ -5,7 +5,7 @@ import kz.bookcity.pages.MainPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class BannerTest {
+public class BannerTest extends TestBase {
     MainPage mainPage = new MainPage();
     BannerPage bannerPage = new BannerPage();
 

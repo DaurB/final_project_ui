@@ -7,7 +7,7 @@ import kz.bookcity.pages.SearchResultPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class FavouriteTest {
+public class FavouriteTest extends TestBase {
     MainPage mainPage = new MainPage();
     SearchResultPage searchResultPage = new SearchResultPage();
     FavouritePage favouritePage = new FavouritePage();

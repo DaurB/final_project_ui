@@ -4,7 +4,7 @@ import kz.bookcity.pages.MainPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class MainPageTest {
+public class MainPageTest extends TestBase {
 
     MainPage mainPage = new MainPage();
 

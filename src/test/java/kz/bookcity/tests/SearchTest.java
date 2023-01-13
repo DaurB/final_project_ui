@@ -5,7 +5,7 @@ import kz.bookcity.pages.SearchResultPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class SearchTest {
+public class SearchTest extends TestBase {
 
     MainPage mainPage = new MainPage();
     SearchResultPage searchResultPage = new SearchResultPage();
