@@ -3,7 +3,7 @@ package kz.bookcity.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:config/${env}.properties"
+        "classpath:${env}.properties"
 })
 
 public interface WebDriverConfig extends Config {
