@@ -1,5 +1,6 @@
 package kz.bookcity.tests;
 
+import io.qameta.allure.Owner;
 import kz.bookcity.pages.AboutUsPage;
 import kz.bookcity.pages.MainPage;
 import org.junit.jupiter.api.DisplayName;
@@ -11,6 +12,7 @@ public class AboutUsTest extends TestBase {
 
     String textAboutUsTitle = "О МАГАЗИНЕ";
 
+    @Owner("Bibol Dauren")
     @Test
     @DisplayName("Check About us Title")
     void checkAboutUsTitleTest() {

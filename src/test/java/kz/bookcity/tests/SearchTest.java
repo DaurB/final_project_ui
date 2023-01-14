@@ -1,5 +1,6 @@
 package kz.bookcity.tests;
 
+import io.qameta.allure.Owner;
 import kz.bookcity.pages.MainPage;
 import kz.bookcity.pages.SearchResultPage;
 import org.junit.jupiter.api.DisplayName;
@@ -12,6 +13,7 @@ public class SearchTest extends TestBase {
 
     String textForSearch = "гарри поттер";
 
+    @Owner("Bibol Dauren")
     @Test
     @DisplayName("Check search result")
     void checkSearchResultTest () {

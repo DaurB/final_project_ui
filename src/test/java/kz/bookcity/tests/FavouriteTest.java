@@ -1,6 +1,6 @@
 package kz.bookcity.tests;
 
-import kz.bookcity.pages.BannerPage;
+import io.qameta.allure.Owner;
 import kz.bookcity.pages.FavouritePage;
 import kz.bookcity.pages.MainPage;
 import kz.bookcity.pages.SearchResultPage;
@@ -16,6 +16,7 @@ public class FavouriteTest extends TestBase {
            textFavouriteProductStatus = "Вы добавили 1 товар",
            textDeletedProduct = "Вы еще не добавили ни одного товара в “Избранное”.";
 
+    @Owner("Bibol Dauren")
     @Test
     @DisplayName("Check add favourite")
     void checkAddFavouriteTest() {
@@ -27,6 +28,7 @@ public class FavouriteTest extends TestBase {
         favouritePage.checkFavouriteProduct(textFavouriteProductStatus);
     }
 
+    @Owner("Bibol Dauren")
     @Test
     @DisplayName("Check delete favourite")
     void checkDeleteFavouriteTest() {
