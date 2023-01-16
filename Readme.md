@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования интернет-магазина [Книжный город](https://www.bookcity.kz/)
 
 <p align="center">
-![bookcity_logo.png](media/icons/bookcity_logo.png)
+  <img src="media/icons/bookcity_logo.png" alt="Jenkins" width="800">
 </p>
 
 ##	Содержание
