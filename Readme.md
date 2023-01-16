@@ -89,7 +89,7 @@ gradle clean test
 #### Настройка параметров
 
 <p align="center">
-  <img src="media/screen/jenkins_param.PNG" alt="jenkins_param" width="800">
+  <img src="media/screen/jenkins_param.png" alt="jenkins_param" width="800">
 </p>
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
@@ -97,7 +97,7 @@ gradle clean test
 #### Значок Allure Report
 
 <p align="center">
-  <img src="media/screen/jenkins_allure.PNG" alt="jenkins_allure" width="800">
+  <img src="media/screen/jenkins_allure.png" alt="jenkins_allure" width="800">
 </p>
 
 ## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/bookcity_final/19/allure/)
@@ -111,7 +111,7 @@ gradle clean test
 #### Тесты
 
 <p align="center">
-  <img src="media/screen/allure_tests.PNG" alt="allure_tests" width="800">
+  <img src="media/screen/allure-tests.PNG" alt="allure_tests" width="800">
 </p>
 
 #### Графики
