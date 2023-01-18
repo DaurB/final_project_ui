@@ -6,7 +6,6 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import kz.bookcity.config.WebDriverProvider;
 import kz.bookcity.helpers.AllureAttachments;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -32,8 +31,8 @@ public class TestBase {
         AllureAttachments.addVideo();
     }
 
-    @AfterAll
-    static void CloseWebDriver() {
+    @AfterEach
+    void closeWebDriver() {
         Selenide.closeWindow();
         Selenide.closeWebDriver();
     }
